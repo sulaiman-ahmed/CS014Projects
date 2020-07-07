@@ -1,0 +1,16 @@
+digraph G {
+e[label="+"]
+a[label="a"]
+
+e->a
+d[label="*"]
+b[label="b"]
+
+d->b
+c[label="c"]
+
+d->c
+
+e->d
+
+}
